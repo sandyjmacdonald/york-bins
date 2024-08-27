@@ -20,13 +20,14 @@ app.get("/next-bin/:uprn", async (c) => {
 
     const nextRefuse = new Date(refuseService.nextCollection);
     const nextRecycling = new Date(recyclingService.nextCollection);
+
     let nextUp;
     let nextDate;
 
     if (nextRefuse < nextRecycling) {
       nextUp = "rubbish";
       nextDate = nextRefuse;
-    } else if (nextRecycling > nextRefuse) {
+    } else if (nextRecycling < nextRefuse) {
       nextUp = "recycling";
       nextDate = nextRecycling;
     } else {
