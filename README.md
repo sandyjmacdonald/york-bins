@@ -18,6 +18,7 @@ This is really useful when used as part of an iOS shortcut to either simply quer
 3. `git clone https://github.com/sandyjmacdonald/york-bins`
 4. `cd york-bins`
 5. `npm install`
+6. Install Bun: `curl -fsSL https://bun.sh/install | bash`
 
 To test locally:
 
