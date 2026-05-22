@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **This repository has moved to Codeberg.**
+>
+> Active development now happens at **[https://codeberg.org/sandyjmacdonald/york-bins](https://codeberg.org/sandyjmacdonald/york-bins)**.
+>
+> This GitHub copy is archived and read-only. Please file issues, open pull requests, and follow the project on Codeberg.
+
+---
+
 This simple Cloudflare Workers app provides an API endpoint that can be given a UPRN (Unique Property Reference Number, find yours [here](https://www.findmyaddress.co.uk/search)) for the City of York Council area and it will return a JSON response as below, with which collection (rubbish/recyling) is next and the date on which it is due to be collected:
 
 ```bash
